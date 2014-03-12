@@ -3,7 +3,7 @@
 TARGET_OTA_ASSERT_DEVICE := codina,i8160,GT-I8160
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/codina
+TARGET_KERNEL_SOURCE := kernel/samsung/u8500
 TARGET_KERNEL_CONFIG := cyanogenmod_i8160_defconfig
 
 # Bluetooth
@@ -16,3 +16,6 @@ TARGET_RECOVERY_FSTAB := device/samsung/codina/rootdir/fstab.samsungcodina
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_BOOTANIMATION_USE_RGB565 := true
+
+# Hardware tunables (device parts replacement)
+BOARD_HARDWARE_CLASS := device/samsung/codina/cmhw
