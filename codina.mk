@@ -15,7 +15,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Ace 2 settings
 PRODUCT_PACKAGES += \
-    GalaxyAce2Settings
+    GalaxyAce2Settings \
+    OmniSwitch
 
 # Init files
 PRODUCT_COPY_FILES += \
