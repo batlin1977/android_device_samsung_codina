@@ -1,18 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- App name -->
     <string name="app_name">Ustawienia Galaxy Ace 2</string>
-
-    <!-- TAB: General -->
-    <string name="category_general_title">Ogólne</string>
-
-    <!-- CATEGORY: Radio mode -->
+    <string name="image">Miniatura</string>
+    <string name="network_name">Nazwa sieci</string>
     <string name="radio_subcat_title">Tryb Radia</string>
     <string name="hspa_title_head">HSPA</string>
     <string name="hspa_summary_head">Włącz HSDPA/HSUPA</string>
-
-    <!-- CATEGORY: Accelerometer -->
+    <string name="tcp_subcat_title">TCP</string>
+    <string name="tcp_title_head">TCP Algorytm</string>
+    <string name="tcp_summary_head">Przełączanie algorytmu ma wpływ na pobieranie, prędkości wysyłania i opóźnienie.</string>
+    <string name="usb_name">USB</string>
+    <string name="otg_subcat_title">Ustawienia USB OTG</string>
+    <string name="otg_power_title_head">Moc USB-VBUS</string>
+    <string name="otg_power_summary_head">Włącza wyjście napięcia do portu USB</string>
+    <string name="cc_subcat_title">Kontrola ładowania</string>
+    <string name="ac_cc_title_head">Wartość dla ładowarki sieciowej</string>
+    <string name="ac_cc_summary_head">Wartość dla ładowarki sieciowej w mAh, niski poziom chroni baterię, ale wymaga dłuższego ładowania, wysokie poziomy mogą skrócić żywotność baterii</string>
+    <string name="usb_cc_title_head">Wartość dla połączenia USB</string>
+    <string name="usb_cc_summary_head">Wartość dla kabla USB w mAh, przydatne dla opcji Fast Charge, niski poziom chroni baterię, ale wymaga dłuższego ładowania, wysokie poziomy mogą skrócić żywotność baterii</string>
+    <string name="audio_name">Audio</string>
+    <string name="headsetgain_subcat_title">Wzmocnienie zestawu słuchawkowego</string>
+    <string name="enable_anagain3_title_head">AnaGain3</string>
+    <string name="enable_anagain3_summary_head">Włącz zestaw słuchawkowy analogowego wzmocnienia ścieżki.</string>
+    <string name="anagain3_control_title_head">AnaGain3 Kontrola wzmocnienia</string>
+    <string name="anagain3_control_dialog_message">Wybierz ilość przyrostu głośności dla AnaGain3.</string>
+    <string name="enable_hsldiggain_title_head"> Włącz HsLDigGain</string>
+    <string name="enable_hsldiggain_summary_head">Włącz wzmocnienie ścieżki cyfrowej dla lewej słuchawki.</string>
+    <string name="enable_hsrdiggain_title_head">Włącz HsRDigGain</string>
+    <string name="enable_hsrdiggain_summary_head">Włącz wzmocnienie ścieżki cyfrowej dla prawej słuchawki.</string>
+    <string name="miscgain_subcat_title">Inne wzmocnienia</string>
+    <string name="enable_classdhpg_title_head">Włącz ClassDHPG</string>
+    <string name="enable_classdhpg_summary_head">Włącz wzmacniacz ClassD wzmocnienia górnoprzepustowego.</string>
+    <string name="enable_addiggain2_title_head">Włącz ADDigGain2</string>
+    <string name="enable_addiggain2_summary_head">Włącz cyfrowe wzmocnienie mikrofonu telefonu.</string>
+    <string name="enable_eardiggain_title_head">Włącz EarDigGain</string>
+    <string name="enable_eardiggain_summary_head">Włącz cyfrowe wzmocnienie ścieżki słuchawki.</string>
+    <string name="powermodes_subcat_title">Tryby Zasilania</string>
+    <string name="enable_hslowpow_title_head">HsLowPow</string>
+    <string name="enable_hslowpow_summary_head">Włącz tryb niskiego zasilania sterownika zestawu słuchawkowego.</string>
+    <string name="enable_hsdaclowpow_title_head">HsDacLowPow</string>
+    <string name="enable_hsdaclowpow_summary_head">Włącz tryb niskiego zasilania na słuchawkach konwerter cyfrowo-analogowy.</string>
+    <string name="miscellaneous_subcat_title">Różne</string>
+    <string name="enable_hshpen_title_head">HsHpEn</string>
+    <string name="enable_hshpen_summary_head">Włącz filtr górnoprzepustowy zestawu słuchawkowego.</string>
+    <string name="enable_classdwg_title_head">ClassDDithWGain</string>
+    <string name="enable_classdwg_summary_head">Włącz kontrolę na białym element drgający filtr.</string>
+    <string name="screen_name">Ekran</string>
+    <string name="touchscreen_subcat_title">Ekran dotykowy</string>
+    <string name="use_sweep2wake_title_head">Przeciągnij ekran aby obudzić "Sweep2Wake"</string>
+    <string name="use_sweep2wake_summary_head">Przeciągnij ekran aby odblokować</string>
+    <string name="x_sweep2wake_title_head">S2W Wartość progowa X</string>
+    <string name="x_sweep2wake_summary_head">Dostosuj wartość progową wokół osi x, przesuwając.</string>
+    <string name="y_sweep2wake_title_head">S2W Wartość progowa Y</string>
+    <string name="y_sweep2wake_summary_head">Dostosuj wartość progową wokół osi y, przesuwając.</string>
+    <string name="fsync_subcat_title">FSync</string>
+    <string name="fsync_title_head">Tryb FSync</string>
+    <string name="fsync_summary_head">Wyłączenie może zwiększyć wydajność fsync IO, ale może to spowodować uszkodzenie danych. Dynamiczny fsync zsynchronizuje wszystkie bufory, gdy ekran się wyłącza.</string>
+    <string name="gpu_subcat_title">GPU</string>
+    <string name="mali_l2_mr_title_head">Mali L2 Max Reads</string>
+    <string name="mali_l2_mr_summary_head">Zwiększenie to może poprawić wydajność grafiki.</string>
+    <string name="mali_pam_title_head">Mali wstępnie przydzielony rozmiar pamięci</string>
+    <string name="mali_pam_summary_head">Zwiększając to możesz poprawić wydajność grafiki.</string>
+    <string name="powermgmt_name">Zarządzanie energią</string>
+    <string name="wifi_subcat_title">Wi-Fi</string>
+    <string name="use_wifipm_max_title_head">Użyj trybu Wifi PM_MAX</string>
+    <string name="use_wifipm_max_summary_head">Używanie PM_MAX oszczędza energię, ale zmniejsza się prędkość internetu.</string>
+    <string name="scheduler_subcat_title">Harmonogram</string>
+    <string name="sched_mc_title_head">Wielordzeniowe Oszczędzanie energii</string>
+    <string name="sched_mc_summary_head">Próbuje grupować zadania z użyciem najmniejszej ilości rdzeni w celu oszczędzania baterii jak na zarządcy Hotplug. Opcja niezalecana na zarządcach Hotplug.</string>
+    <string name="deepsleep_subcat_title">Głęboki Sen "Deep Sleep"</string>
+    <string name="deepest_sleep_title_head">Najwyższy poziom Głąbokiego Snu </string>
+    <string name="deepest_sleep_summary_head">Wybierz najwyższy poziom stanu głąbokiego snu</string>
+    <string name="advanced_name">Zaawansowane</string>
+    <string name="storage_subcat_title">Pamięć</string>
+    <string name="switch_storage_title_head">Zamiana Pamięci</string>
+    <string name="switch_storage_summary_head">Zamienia wewnętrzną pamięć z zewnętrzną kartą micro-sd. Wymagany restart urządzenia!.</string>
+    <string name="backlight_subcat_title">Podświetlanie Klawiszy</string>
+    <string name="disable_bln_title_head">Wyłącz BLN</string>
+    <string name="disable_bln_summary_head">"Klawisze nie będą podświetlane po przyjściu powiadomienia jeśli BLN jest wyłączony."</string>
+    <string name="readaheadkb_dialog_message">Wybierz rozmiar bufora odczytu readahead</string>
+    <string name="readaheadkb_title_head">Readahead rozmiar bufora</string>
+    <string name="enable_uksm_title_head">Włączyć UKSM</string>
+    <string name="enable_uksm_summary_head">Włączanie Ultra Kernel SamePage Merging, lepsze zarządzanie RAM ale większe zużycie procesora.</string>
+    <string name="mmc_subcat_title">MMC</string>
+    <string name="use_spi_crc_title_head">Wyłącz SPI CRC</string>
+    <string name="use_spi_crc_summary_head" formatted="false">Wyłączenie SPI CRC może poprawić osiągi MMC (10% - 30%), ale telefon może się losowo zawieszać</string>
     <string name="accelerometer_subcat_title">Akcelerometr</string>
     <string name="use_accelerometer_calibration_title_head">Użyj danych kalibracyjnych</string>
     <string name="use_accelerometer_calibration_summary_head">Użyj wartości kalibracyjnych akcelerometru. Zrób kalibracje po wybraniu tej opcji!</string>
@@ -20,55 +92,4 @@
     <string name="calibrate_accelerometer_summary_head">Połóż telefon na płaskiej powierzchni, następnie naciśnij by kalibrować</string>
     <string name="accelerometer_dialog_head">Kalibracja zakończona</string>
     <string name="accelerometer_dialog_message">Czujnik został pomyślnie skalibrowany.</string>
-
-    <!-- TAB: USB -->
-    <string name="category_usb_title">USB</string>
-
-    <!-- CATEGORY: USB OTG Settings -->
-    <string name="otg_subcat_title">Ustawienia USB OTG</string>
-    <string name="otg_power_title_head">USB-VBUS Power</string>
-    <string name="otg_power_summary_head">Włącza wyjście napięcia do portu USB</string>
-
-    <!-- CATEGORY: Charger Control -->
-    <string name="cc_subcat_title">Kontrola ładowania</string>
-    <string name="ac_cc_title_head">Wartość dla ładowarki sieciowej</string>
-    <string name="ac_cc_summary_head">Wartość dla ładowarki sieciowej w mAh, niski poziom chroni baterię, ale wymaga dłuższego ładowania, wysokie poziomy mogą skrócić żywotność baterii</string>
-    <string name="usb_cc_title_head">Wartość dla kabla USB</string>
-    <string name="usb_cc_summary_head">Wartość dla kabla USB w mAh, przydatne dla opcji "Fast Charge", niski poziom chroni baterię, ale wymaga dłuższego ładowania, wysokie poziomy mogą skrócić żywotność baterii</string>
-
-    <!-- CATEGORY: Charger Control -->
-    <string name="deepsleep_subcat_title">Głęboki sen</string>
-    <string name="deepest_sleep_title_head">Najwyższy poziom głębokiego snu</string>
-    <string name="deepest_sleep_summary_head">Wybierz najwyższy poziom stanu głębokiego snu</string>
-
-    <!-- TAB: ADVANCED -->
-    <string name="category_advanced_title">Zaawansowane</string>
-
-    <!-- CATEGORY: FSync -->
-    <string name="fsync_subcat_title">FSync</string>
-    <string name="fsync_title_head">Tryb FSync</string>
-    <string name="fsync_summary_head">Wyłączenie FSync może przyspieszyć operacje wyjścia/wejścia, ale może spowodować uszkodzenie danych. Fsync dynamiczny będzie synchronizował wszystkie bufory po wyłączeniu ekranu.</string>
-
-    <!-- CATEGORY: GPU -->
-    <string name="gpu_subcat_title">GPU</string>
-    <string name="mali_l2_mr_title_head">Mali L2 Max Reads</string>
-    <string name="mali_l2_mr_summary_head">Zwiększenie tej wartości może poprawić osiągi układu graficznego.</string>
-    <string name="mali_pam_title_head">Rozmiar przydzielonej pamięci graficznej</string>
-    <string name="mali_pam_summary_head">Zwiększenie tej wartości może poprawić osiągi układu graficznego.</string>
-
-    <!-- CATEGORY: MMC -->
-    <string name="mmc_subcat_title">MMC</string>
-    <string name="use_spi_crc_title_head">Wyłączenie SPI CRC</string>
-    <string name="use_spi_crc_summary_head">Wyłączenie SPI CRC może zwiększyć osiągi MMC (10% - 30%) ale telefon może się losowo zawieszać</string>
-
-    <!-- CATEGORY: STORAGE -->
-    <string name="storage_subcat_title">Pamięci</string>
-    <string name="switch_storage_title_head">Zamiana pamięci</string>
-    <string name="switch_storage_summary_head">Zamienia wewnętrzną pamięć z zewnętrzną kartą micro-sd. Wymagany restart urządzenia!.</string>
-
-    <!-- CATEGORY: TouchScreen -->
-    <string name="touchscreen_subcat_title">Ekran dotykowy</string>
-    <string name="use_sweep2wake_title_head">Sweep2Wake</string>
-    <string name="use_sweep2wake_summary_head">Odblokowuje urządzenie przesunięciem palca</string>
-
 </resources>
