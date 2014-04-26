@@ -80,7 +80,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/xperia/usr/xt9/SEMC_811_r1-4-10-1_PTusUN_xt9_2.ldb:system/usr/xt9/SEMC_811_r1-4-10-1_PTusUN_xt9_2.ldb \
     $(LOCAL_PATH)/xperia/usr/xt9/SEMC_820_r1-3_NOusUN_xt9_2.ldb:system/usr/xt9/SEMC_820_r1-3_NOusUN_xt9_2.ldb
     
-
+# OmniSwitch
+PRODUCT_PACKAGES += \
+    OmniSwitch
 
 # Audio
 PRODUCT_COPY_FILES += \
