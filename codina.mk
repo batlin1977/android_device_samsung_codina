@@ -28,3 +28,21 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
+
+# This device is hdpi.
+ PRODUCT_AAPT_CONFIG := normal hdpi
+ PRODUCT_AAPT_PREF_CONFIG := hdpi
+ PRODUCT_LOCALES += hdpi
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=240
+
+# Swype fix 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
+    $(LOCAL_PATH)/system/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk    
+
+# WIFI fix
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/strace/strace:system/xbin/strace
+
